@@ -6,7 +6,80 @@
     <title>Hello</title>
 </head>
 <body>
-    <h1>Welcome to my web page!</h1>
-   <h2>Hello, World!</h2> 
+    
+    <header> 
+        <h1>TAOFEEK BLOG</h1>
+        <p>My name is Taofeek Adewole, I am a student software Engineering at Miva Open University and I am passionate about sharing my knowledge and experiences with others. This blog is a platform for me to share my thoughts on various topics related to software development, technology, and programming. I hope that you find my blog informative and helpful in your own journey as a developer.</p>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About Me.html">About Me</a></li>
+                <li><a href="#Categories">Categories</a></li>
+                <li><a href="#Contact Me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr />
+    <main>
+        <section id="Home">
+            <h2>Home</h2>
+            <p>Welcome to My Digital Garden where you can exploit Tech and Culture</p>
+            <div class="Home-container">
+                <article class="post-card">
+                    <img src="C:\Users\hp\Downloads\Web_Development_history.jpg" alt="Web Development"/>
+                    <h2 style="text-align:left;">History of Web Development in Nigeria</h2>
+                    <p>Discover how the web Development Started in Nigeria...</p>
+                    <a href="post-link.html" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+        <hr />
+
+        <section id="About Me">
+            <h2>About Me</h2>
+            <div class="About Me-container">
+                <img src="C:\Users\hp\Downloads\MY ID PICS_2.png" alt="Adewole Taofeek"/>
+                <div class="About Me-text">
+                    <p>Thank you for visiting my blog! Here, you will find a variety of articles and resources related to software development, programming languages, and technology trends. I will be sharing my insights, tips, and experiences to help you navigate the ever-evolving world of software development. Stay tuned for regular updates and feel free to reach out if you have any questions or topics you'd like me to cover!</p>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="Categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="HTMLPage1.html">Programming Languages</a></li>
+                <li><a href="HTMLPage2.html">Software Development</a></li>
+                <li><a href="HTMLPage3.html">Technology Trends</a></li>
+                <li><a href="HTMLPage4.html">Tutorials</a></li>
+            </ul>
+        </section>
+        <hr />
+        <section id="Contact Me">
+            <h2>Contact Me</h2>
+            <p>If you have any questions, suggestions, or would like to collaborate on a project, please feel free to reach out to me by fill the form below.</p>
+            <form id="myForm" action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <p id="nameError" class="error"></p>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <p id="emailError" class="error"></p>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                <p id="messageError" class="error"></p>
+
+                <br />
+                <input type="submit" value="Send">
+            </form>
+        </section>
+        <hr />
+    </main>
+    <footer>
+        <p>&copy; 2026 Taofeek Blog. All rights reserved.</p>
+    </footer>
+    <script src="script1.js"></script>
 </body>
 </html>
